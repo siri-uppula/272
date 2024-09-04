@@ -31,7 +31,7 @@ Built a docker image </br>
 ![hello](images/hello.png) </br>
 ## Deployed it in Kubernetes for this service. </br>
 The code is in the "hello-service.yaml" file </br>
-Commands Used are: </br>
+## Commands Used are: </br>
 ```minikube start``` </br>
 ```kubectl apply -f k8s/hello-service-deployment.yaml``` </br>
 ## Check the Kubernetes service is running or not:</br>
