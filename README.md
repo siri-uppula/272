@@ -11,7 +11,6 @@ I choosed Node.js with Express.js Programming Language and Framework to create m
 `npm init -y` initializing the project
 </br>
 ### Step 3: </br>
-</br>
 ### Hello Service: </br>
 Created an Endpoint /hello that returns the string "Hello" </br>
 
