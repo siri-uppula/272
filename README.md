@@ -37,7 +37,7 @@ Commands Used are: </br>
 Check the Kubernetes service is running or not:</br>
 ![hello](images/Khello.png) </br>
 </br>
-###Step 4: </br>
+### Step 4: </br>
 ### World Service: </br>
 Created an Endpoint /hello that returns the string "World" </br>
 Created dockerfile for this World micro service</br>
