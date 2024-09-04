@@ -11,7 +11,7 @@ I choosed Node.js with Express.js Programming Language and Framework to create m
 ```npm init -y``` initializing the project <br>
 ```npm install express``` and ```npm install axios``` to install </br>
 Installed docker and Kubernates.</br>
-###Used minikubes in the kubernates, installed them with the following command:</br>
+### Used minikubes in the kubernates, installed them with the following command:</br>
 ```brew install minikube``` </br>
 ```minikube start``` to start minikube </br>
 </br>
