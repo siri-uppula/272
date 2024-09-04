@@ -20,13 +20,13 @@ Used minikubes in the kubernates, installed them with the following command:</br
 Created an Endpoint /hello that returns the string "Hello" </br>
 Created dockerfile for this Hello micro service</br>
 Built a docker image </br>
-Coomands to build docker image:</br>
-`docker build -t hello-service` .</br>
+Commands to build docker image:</br>
+```docker build -t hello-service``` .</br>
 To run docker image, commad I used is:</br>
-`docker run -p 3000:3000 hello-service`</br>
+```docker run -p 3000:3000 hello-service```</br>
 Now, I pushed the Docker Image to Docker hub by using following commands:</br>
-`docker tag hello-service:latest siriuppula/hello-service` </br>
-`docker push siriuppula/hello-service` </br>
+```docker tag hello-service:latest siriuppula/hello-service``` </br>
+```docker push siriuppula/hello-service``` </br>
 Running the service locally : </br>
 ![hello](images/hello.png) </br>
 Deployed it in Kubernetes for this service. </br>
@@ -36,6 +36,32 @@ Commands Used are: </br>
 ```kubectl apply -f k8s/hello-service-deployment.yaml``` </br>
 Check the Kubernetes service is running or not:</br>
 ![hello](images/Khello.png) </br>
+</br>
+###Step 4: </br>
+### World Service: </br>
+Created an Endpoint /hello that returns the string "World" </br>
+Created dockerfile for this World micro service</br>
+Built a docker image </br>
+Commands to build docker image:</br>
+`docker build -t world-service` .</br>
+To run docker image, commad I used is:</br>
+```docker run -p 3001:3000 world-service```</br>
+Now, I pushed the Docker Image to Docker hub by using following commands:</br>
+```docker tag world-service:latest siriuppula/world-service``` </br>
+Running the service locally:</br>
+![world](images/world.jpeg) </br>
+Deployed it in Kubernetes for this service. </br>
+The code is in the "world-service.yaml" file </br>
+Commands Used are: </br>
+```minikube start``` </br>
+```kubectl apply -f k8s/world-service-deployment.yaml``` </br>
+Check the Kubernetes service is running or not:</br>
+![world](images/Kworld.png) </br>
+
+
+
+
+
 
 
 
